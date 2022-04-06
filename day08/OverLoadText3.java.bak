@@ -1,0 +1,15 @@
+/*
+调用GongJu.java里面的方法    方法重载
+
+
+
+*/
+
+public class OverLoadText3
+{
+	public static void main(String[ ] args)
+	{
+		GongJu.ShuChu(23);
+		GongJu.ShuChu("hhh");
+	}
+}

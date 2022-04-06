@@ -1,0 +1,23 @@
+public class CeShi
+{
+	public static void main(String[ ] args)
+	{
+		//创建对象
+		Car che = new Car();
+		
+		che.zhuRen.no = 9527;
+		System.out.println(che.zhuRen.no);
+	}
+}
+
+class Car
+{
+	String color;
+	Master zhuRen = new Master();  //编译成功，可以运行  说明在方法体外也可以创建对象，就不用在主方法里面再创建这个对象了
+}
+
+class Master
+{
+	String name;
+	int no;
+}
