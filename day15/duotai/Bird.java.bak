@@ -1,0 +1,8 @@
+public class Bird extends Animal  //¼Ì³ĞAnimalÀà
+{
+	//ÖØĞ´
+	public void move()
+	{
+		System.out.println("ÄñÔÚ·É");
+	}
+}

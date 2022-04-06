@@ -1,0 +1,25 @@
+public class FinalText2
+{
+	public static void main(String[ ] args)
+	{ 
+		final User u = new User(); //±àÒëÍ¨¹ı
+		u = new User(6,7);
+	}
+}
+
+class User
+{
+	int i;
+	int t;
+	
+	public User()
+	{
+		
+	}
+	
+	public User(int i,int j)
+	{
+		this.i = i;
+		this.t = j;
+	}
+}

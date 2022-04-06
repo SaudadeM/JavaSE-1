@@ -1,0 +1,7 @@
+public class Cat extends Animal  //继承Animal类
+{
+	public void move() //这一行的要和父类的一样 
+	{
+		System.out.println("猫再走猫步");
+	}
+}

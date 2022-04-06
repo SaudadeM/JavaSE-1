@@ -1,0 +1,33 @@
+public class User
+{
+	
+	int j;
+	//构造方法
+	public User()
+	{
+		System.out.println("haha");
+	}
+	public User(int i)
+	{
+		System.out.println(i);
+	}
+	
+	public User(double i)
+	{
+		System.out.println(i);
+	}
+	
+	public User(String i)
+	{
+		System.out.println(i);
+	}
+	
+	public User(byte i)
+	{
+		System.out.println(i);
+	}
+	public void f()
+	{
+		System.out.println("fff");
+	}
+}
